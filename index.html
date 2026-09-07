@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YYCfriends support</title>
+<meta name="description" content="Support for YYCfriends, an iOS app for using a CJSW Friends Card in Calgary.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --ink: #16181d;
+    --muted: #5d626d;
+    --rule: #e3e5ea;
+    --page: #ffffff;
+    --link: #1b52c0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e9eaee;
+      --muted: #9a9fab;
+      --rule: #2a2d34;
+      --page: #16181d;
+      --link: #8fb2ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 3rem 1.5rem 6rem;
+    background: var(--page);
+    color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 40rem; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; letter-spacing: -0.02em; margin: 0 0 0.4rem; }
+  h2 { font-size: 1.1rem; letter-spacing: -0.01em; margin: 2.4rem 0 0.5rem; }
+  p { margin: 0 0 1rem; }
+  a { color: var(--link); }
+  ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+  li { margin-bottom: 0.35rem; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0 1.5rem; }
+  footer { color: var(--muted); font-size: 0.9rem; }
+  .lede { font-size: 1.2rem; line-height: 1.5; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>YYCfriends</h1>
+  <p class="lede">Every business that takes the CJSW Friends Card, on one map, with an Apple
+  Wallet card that names the discount before you get to the till.</p>
+
+  <h2>Get help</h2>
+  <p>Email <a href="mailto:yycfriends@bryanmanio.com">yycfriends@bryanmanio.com</a>. If the
+  problem is one business, the "Report an error" link at the bottom of that business's page
+  in the app fills in its name for you, which makes it much faster to fix.</p>
+
+  <h2>A listing is wrong, or the shop has closed</h2>
+  <p>The list comes from CJSW's own published list of Friends Card businesses, which turns
+  over once a year with the funding drive, so a business can move or close between updates.
+  Report it and it gets corrected in the next build.</p>
+
+  <h2>The map does not know where I am</h2>
+  <p>The app needs location permission to sort businesses by distance. Open the iOS Settings
+  app, find YYCfriends, then Location, and choose "While Using the App" at least. Without it
+  the list falls back to alphabetical order and still works.</p>
+
+  <h2>The Wallet card is not changing as I move</h2>
+  <p>Keeping the card current in the background needs "Always" location, which iOS will only
+  offer after you have granted "While Using the App". The app asks for it from Settings,
+  then Location, inside the app. Choosing "While Using the App" instead is fine: everything
+  else works, and the card simply stays on whatever it last showed.</p>
+
+  <h2>Where are the hours and the rating?</h2>
+  <p>They are fetched live from Google when you open a business, so they need a connection,
+  and a business Google does not have a listing for shows none.</p>
+
+  <h2>Privacy</h2>
+  <p>Nothing about you leaves your phone. <a href="privacy.html">Read the privacy policy</a>.</p>
+
+  <hr>
+  <footer>
+    <p>YYCfriends is not affiliated with CJSW 90.9 FM. The Friends Card, and the discounts it
+    carries, belong to the station. Buy the card from
+    <a href="https://fundingdrive.ca/products/35-donation">the funding drive</a>. This app is
+    no substitute for it.</p>
+  </footer>
+</main>
+</body>
+</html>
