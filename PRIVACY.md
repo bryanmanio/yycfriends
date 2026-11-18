@@ -1,42 +1,73 @@
 # YYCfriends privacy policy
 
-Last updated 7 September 2026
+Last updated 17 November 2026
 
-**YYCfriends collects nothing.** There is no account, no analytics, no advertising, and no
-server that belongs to this app.
+**YYCfriends has no account, no advertising and no tracking.** Your location never leaves
+your phone. The app does send anonymous usage counts to a server run by its developer, to see which parts of it people use.
 
 ## Your location stays on your phone
 
-Location is used on the device only: to sort businesses by how close they are, to draw the
-map, and to let iOS update your Apple Wallet card when you arrive somewhere that takes the
-Friends Card. It is never transmitted anywhere, and it is never stored.
+Location is used on the device only: to sort businesses by how close they are and to show
+where you are on the map. It is never transmitted anywhere, and it is never stored. The app
+asks for it only when you tap the map's locate button or the button in Settings, and only
+while you are using the app.
 
-## Opening hours and ratings
+## Usage analytics
 
-When you open a business, the app asks Google Places for that one business's opening hours
-and rating, identifying it by a Google place identifier. The request carries nothing about
-you and nothing about where you are, and nothing it returns is saved on your device.
-Google's own privacy policy covers what Google does with that request.
+The app sends a short message to an analytics server (Umami, run by the developer at
+analytics.bryanmanio.com) when you do certain things in it:
+
+- open the app, along with the app's version and the version of the business list;
+- open a business's card, and which business it was;
+- turn on a category, area or "New" filter;
+- search the list for something that matches nothing, including the words you searched;
+- hide a business, or open one in Maps;
+- log a saving, including the amount and the business;
+- see the welcome screen, tap its buttons, or tap "Join as a business";
+- answer the location permission prompt (yes or no, never the location itself).
+
+Each message carries a random identifier made by the app the first time it runs. It is not
+your Apple ID, your advertising identifier or anything else that names you or your phone,
+and deleting the app discards it. It lets the developer count people rather than app
+launches.
+
+Like any server, the analytics server sees the internet address your request comes from. It
+uses it to estimate your country and city and does not store the address itself. It also
+records your iOS version and language.
+
+This information is used only to understand how the app is used and to improve it. It is
+not linked to your identity, not used for advertising, not combined with data from anywhere
+else, and not sold or shared with anyone.
+
+## The list of businesses
+
+Twice a day at most, the app checks a public GitHub repository for a newer list of Friends
+Card businesses and downloads it if there is one. The request carries nothing about you.
+GitHub sees an internet address, as any website would, and its own privacy policy covers
+what it does with that.
+
+## Your savings log
+
+Savings you log are stored on your phone and, if you use iCloud, in your own private iCloud
+account, so they follow you to your other devices. The developer cannot read your iCloud
+data. The amount and business of each new saving are also sent to the analytics server as
+described above.
 
 ## What is stored on your phone
 
-The businesses you have hidden, and your sort and filter choices. They live on your device
-and nowhere else. Deleting the app deletes them.
+The businesses you have hidden, your savings log, your sort, filter and appearance choices,
+the analytics identifier, and a copy of the business list. Deleting the app deletes them,
+apart from the savings log's copy in your iCloud.
 
-## The Wallet card
+## Open in Maps
 
-The Wallet passes ship inside the app, already signed. Adding one, and swapping it as you
-move around the city, happens entirely on your device through Apple Wallet.
-
-## Reporting an error
-
-The "Report an error" link at the bottom of a business opens an email addressed to
-yycfriends@bryanmanio.com, which you write and send yourself. Nothing is sent unless you
-send it.
+"Open in Maps" hands a business's location to Apple Maps, which is a separate app covered
+by Apple's privacy policy.
 
 ## Children
 
-The app has no content directed at children, and it collects nothing from anyone of any age.
+The app has no content directed at children and does not knowingly collect information from
+them.
 
 ## Changes to this policy
 
